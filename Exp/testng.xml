@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+  <test thread-count="5" name="ExpediaHW.execute.JAVA">
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+ <parameter name="browser" value="chrome"/>
+        <parameter name="url" value="https://www.expedia.com/"/>
+        <parameter name="origin" value=" Was"/>
+        <parameter name="destination" value=" Add" />
+
